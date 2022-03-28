@@ -1,0 +1,162 @@
+[
+    {
+        "id":"FirstName",
+        "label":"First Name",
+        "Type":"input",
+        "Value": "",
+        "required": false,
+        "min":3,
+        "max":10
+    },
+    {
+        "id":"LastName",
+        "label":"Last Name",
+        "Type":"input",
+        "Value": "",
+        "required": true
+    },
+    {
+        "id":"MobileNo",
+        "label":"Mobile No",
+        "Type":"number",
+        "Value": "",
+        "required": true
+    },
+    {
+        "id":"file",
+        "label":"file",
+        "Type":"file",
+        "Value": "",
+        "required": true
+    },
+    {
+        "id":"color",
+        "label":"color",
+        "Type":"color",
+        "Value": "",
+        "required": true
+    },
+    {
+        "id":"password",
+        "label":"password",
+        "Type":"password",
+        "Value": "",
+        "required": true
+    },
+    {
+        "id":"range",
+        "label":"range",
+        "Type":"range",
+        "Value": "",
+        "required": true
+    },
+    {
+        "id":"checkbox",
+        "label":"checkbox",
+        "Type":"checkbox",
+        "Value": "",
+        "required": true
+    },
+    {
+        "id":"Email id",
+        "label":"Email id",
+        "Type":"input",
+        "Value": "",
+        "required": true
+    },
+    {
+        "id":"Gender",
+        "label":"Gender",
+        "Type":"radio",
+        "Value": "Male, Female",
+        "required": true
+    },
+    {
+        "id":"DOB",
+        "label":"DOB",
+        "Type":"date",
+        "Value": "",
+        "required": true
+    },
+    {
+        "id":"Address",
+        "label":"Address",
+        "Type":"input",
+        "Value": "",
+        "required": true
+    },
+    {
+        "id":"City",
+        "label":"City",
+        "Type":"select",
+        "option":[{
+            "label":"jakarta",
+            "value":"JKT"
+        },
+        {
+            "label":"medan",
+            "value":"MDN"
+        },
+        {
+            "label":"balikpapan",
+            "value":"BPP"
+        },
+        {
+            "label":"Bandung",
+            "value":"BDG"
+        }
+    ],
+        "required": true
+    },
+    {
+        "id":"State",
+        "label":"State",
+        "Type":"select",
+        "option":[{
+            "label":"indonesia",
+            "value":"INA"
+        },
+        {
+            "label":"singapura",
+            "value":"SG"
+        },
+        {
+            "label":"malaysia",
+            "value":"MY"
+        },
+        {
+            "label":"thailand",
+            "value":"TH"
+        }
+    ],
+        "required": true
+    },
+    {
+        "id":"toggle",
+        "label":"toggle",
+        "Type":"toggle",
+        "Value": ""
+    },
+    {
+        "id":"multiple",
+        "label":"multiple",
+        "Type":"multiple",
+        "Value": "true,false,get",
+        "required": true
+    },
+    {
+        "id":"checkbox",
+        "label":"checkbox",
+        "Type":"checkbox",
+        "Value": "true,false",
+        "checked":true,
+        "required": true
+    },
+    {
+        "id":"password",
+        "label":"password",
+        "Type":"password",
+        "Value": "",
+        "required": true
+    }
+]
